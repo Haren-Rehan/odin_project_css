@@ -1,0 +1,28 @@
+<!DOCTYPE html> : memberitahu browser bahwa ini dokumen HTML5
+<html> : wadah/pembungkus seluruh kode HTML
+<head> : wadah untuk informasi meta (tidak tampil di halaman)
+<meta charset="UTF-8"> : mengatur agar huruf/aksara terbaca dengan benar
+<meta name="viewport"> : mengatur tampilan agar pas di layar HP
+<title> : menentukan judul yang muncul di tab browser
+<body> : wadah semua konten yang tampil di halaman web
+<h1> : untuk mempertebal dan memperbesar huruf (paling besar)
+<h2> : untuk mempertebal dan memperbesar huruf (lebih kecil dari h1)
+<h3> : untuk mempertebal dan memperbesar huruf (lebih kecil dari h2)
+<h4> : untuk mempertebal dan memperbesar huruf (lebih kecil dari h3)
+<h5> : untuk mempertebal dan memperbesar huruf (lebih kecil dari h4)
+<h6> : untuk mempertebal dan memperbesar huruf (paling kecil)
+<br> : untuk pindah baris / enter
+<p> : untuk membuat paragraf (otomatis ada jarak atas-bawah)
+<img> : untuk menampilkan gambar
+src= : atribut untuk menentukan lokasi file gambar
+alt= : atribut untuk teks alternatif jika gambar gagal muat
+height= : atribut untuk mengatur tinggi gambar (dalam pixel)
+width= : atribut untuk mengatur lebar gambar (dalam pixel)
+<strong> : untuk menebalkan huruf (plus makna penting)
+<em> : untuk memiringkan huruf (plus makna penekanan)
+<ul> : untuk membuat daftar tidak berurutan (bullet points)
+<li> : untuk membuat item/isi di dalam daftar (ul atau ol)
+<ol> : untuk membuat daftar berurutan (angka 1,2,3,...)
+<a> : untuk membuat tautan/link ke halaman lain
+href= : atribut untuk menentukan alamat tujuan tautan
+target="_blank" : atribut untuk membuka tautan di tab baru

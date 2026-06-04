@@ -1,0 +1,31 @@
+git --version                          # Cek versi Git
+git config --global user.name "Nama"   # Set username
+git config --global user.email "email" # Set email
+git config --list                      # Lihat semua konfigurasi
+git config --global core.editor "code" # Set editor default
+
+git init                               # Buat repo baru di folder saat ini
+git clone <url>                        # Copy repo dari remote
+git clone <url> <nama-folder>          # Clone dengan nama folder custom
+
+git status                             # Cek status file (modified/staged)
+git status -s                          # Status dalam format singkat
+git add <file>                         # Stage file tertentu
+git add .                              # Stage semua file (termasuk baru)
+git add --all                          # Stage semua file (sama dengan .)
+git add -u                             # Stage hanya file yang sudah tracked
+git commit -m "pesan"                  # Commit dengan pesan
+git commit -am "pesan"                 # Add + commit (untuk file tracked)
+git commit --amend -m "pesan baru"     # Ubah pesan commit terakhir
+git push origin main(/master)          # mengirim commit dari repositori lokal Anda ke repositori jarak jauh (remote seperti GitHub atau GitLab)
+git pull origin main(/master)          # mengambil pembaruan dari repositori jarak jauh dan langsung
+
+git diff                               # Lihat perubahan (belum di stage)
+git diff --staged                      # Lihat perubahan yang sudah di stage
+git diff <commit1> <commit2>           # Bandingkan 2 commit
+git log                                # Lihat history commit
+git log --oneline                      # History dalam 1 baris per commit
+git log --graph --oneline              # History dengan graph (kayak pohon)
+git log -p                             # Lihat perubahan di setiap commit
+git log -n 5                           # Lihat 5 commit terakhir
+git show <commit-hash>                 # Lihat detail commit tertentu
