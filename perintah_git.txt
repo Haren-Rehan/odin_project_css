@@ -29,3 +29,9 @@ git log --graph --oneline              # History dengan graph (kayak pohon)
 git log -p                             # Lihat perubahan di setiap commit
 git log -n 5                           # Lihat 5 commit terakhir
 git show <commit-hash>                 # Lihat detail commit tertentu
+
+cd folder-b                    # Masuk ke folder b
+git remote add origin /path/to/folder-a   # Menghubungkan folder b ke folder a (tidak umum)
+
+# ATAU lebih umum: clone dari GitHub
+git clone <url-github> folder-b   # folder b akan terhubung ke GitHub (bukan ke folder a lokal)
