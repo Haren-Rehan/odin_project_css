@@ -26,3 +26,12 @@ width= : atribut untuk mengatur lebar gambar (dalam pixel)
 <a> : untuk membuat tautan/link ke halaman lain
 href= : atribut untuk menentukan alamat tujuan tautan
 target="_blank" : atribut untuk membuka tautan di tab baru
+div { color: red; } : semua elemen <div> akan memiliki teks berwarna merah
+img { height: auto; width: auto; } : semua gambar (<img>) akan memiliki tinggi dan lebar otomatis (sesuai ukuran asli gambar)
+.alert-text { color: blue; } : elemen dengan class="alert-text" akan memiliki teks berwarna biru
+.font-timesnewroman { font-family: 'Times New Roman'; font-weight: 750; } : elemen dengan class="font-timesnewroman" akan menggunakan huruf Times New Roman dengan ketebalan 750 (semi-bold)
+.serif { font-family: serif; text-align: center; } : elemen dengan class="serif" akan menggunakan keluarga huruf serif (seperti Times New Roman) dan teks berada di tengah
+.read, .unread { color: white; background-color: black; } : elemen dengan class="read" atau class="unread" akan memiliki teks putih dan latar belakang hitam
+.subsection.header { color: pink; } : elemen yang memiliki dua class sekaligus yaitu "subsection" dan "header" akan memiliki teks berwarna pink
+.subsection#preview { color: aqua; } : elemen yang memiliki class="subsection" dan id="preview" akan memiliki teks berwarna aqua (biru kehijauan)
+#title { background-color: yellow; } : elemen dengan id="title" akan memiliki latar belakang kuning

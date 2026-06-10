@@ -1,13 +1,37 @@
-* {
-    color: purple;
-}
-
 div {
     color: red;
 }
 
+img {
+    height: auto;
+    width: auto;
+}
+
 .alert-text {
     color: blue;
+}
+
+.font-timesnewroman {
+    font-family: 'Times New Roman';
+    font-weight: 750;
+}
+
+.serif {
+    font-family: serif;
+    text-align: center;
+}
+
+.read, 
+.unread {
+    color: white;
+    background-color: black;
+}
+
+.subsection.header {
+    color: pink;
+}
+.subsection#preview {
+    color: aqua;
 }
 
 #title {

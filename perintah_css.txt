@@ -1,0 +1,11 @@
+#format
+div → pilih semua tag <div>
+.div → pilih semua elemen yang punya class div
+#div → pilih elemen yang punya id div
+
+#fungsi
+font-family → ganti jenis huruf
+text-align → atur rata teks (kiri, kanan, tengah)
+color → warna teks
+background-color → warna latar
+height/width: auto → ukuran mengikuti isi/asli
