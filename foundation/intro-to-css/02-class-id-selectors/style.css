@@ -1,0 +1,20 @@
+.add {
+    background: pink;
+    font-size: 22px;
+}
+
+.adjust-font-size {
+    font-size: 32px;
+    font-weight: 550;
+}
+
+#four {
+    font-size: 28px;
+    background: rgb(151, 229, 151);
+}
+
+#two {
+    color: blue;
+    font-size: 32px;
+    font-weight: 400px;
+}
